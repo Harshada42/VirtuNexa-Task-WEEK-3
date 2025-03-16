@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Board with FAQ</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#jobs">Jobs</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><button id="darkModeToggle">🌙</button></li>
+        </ul>
+    </nav>
+
+    <!-- Job Listings Section -->
+    <section id="jobs" class="section">
+        <h2>Job Openings</h2>
+        <div class="job-listing">
+            <h3>Software Engineer</h3>
+            <p>Looking for a skilled software engineer to join our team.</p>
+            <button class="apply-btn">Apply</button>
+        </div>
+        <div class="job-listing">
+            <h3>Full Stack Developer</h3>
+            <p>We need an experienced full stack developer.</p>
+            <button class="apply-btn">Apply</button>
+        </div>
+        <div class="job-listing">
+            <h3>Data Analyst</h3>
+            <p>Join our team as a data analyst and work with large datasets.</p>
+            <button class="apply-btn">Apply</button>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section">
+        <h2>Frequently Asked Questions</h2>
+        <input type="text" id="faqSearch" placeholder="Search FAQs...">
+        
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-button">
+                    <span>What is this website about?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>This website provides job listings and answers to frequently asked questions.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button">
+                    <span>How do I apply for a job?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="accordion-content">
+                    <p>Click on the "Apply" button under any job listing and fill out the application form.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created By Harshada</p>
+    </footer>
+
+</body>
+</html>
+
+
